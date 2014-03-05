@@ -1,0 +1,36 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+#container {
+
+        /* Here we define our variables */
+        $basetextsize: 12px;
+        $container-space: 10px;
+        $red: #C0392B;
+        $orange:#ffcc00;
+
+        /* Variables are applied */
+        font-size: $basetextsize;
+        padding: $container-space;
+        color : $orange;
+
+
+        .main {
+                width:600px;
+                h1 {
+                        color: $red;
+                }
+        }
+        .sidebar {
+                width: 300px;
+                h3 {
+                        margin: 0;
+                }
+        }
+
+
+}
