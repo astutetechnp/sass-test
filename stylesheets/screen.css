@@ -67,7 +67,24 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 8, ../sass/screen.scss */
+/* line 21, ../sass/screen.scss */
+ul.navbar {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+/* line 12, ../sass/screen.scss */
+ul.navbar > li {
+  display: block;
+  float: left;
+}
+/* line 15, ../sass/screen.scss */
+ul.navbar > li:last-child {
+  margin-right: 0px;
+}
+
+/* line 26, ../sass/screen.scss */
 #container {
   /* Here we define our variables */
   /* Variables are applied */
@@ -75,19 +92,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   padding: 10px;
   color: #ffcc00;
 }
-/* line 22, ../sass/screen.scss */
+/* line 40, ../sass/screen.scss */
 #container .main {
   width: 600px;
 }
-/* line 24, ../sass/screen.scss */
+/* line 42, ../sass/screen.scss */
 #container .main h1 {
   color: #c0392b;
 }
-/* line 28, ../sass/screen.scss */
+/* line 46, ../sass/screen.scss */
 #container .sidebar {
   width: 300px;
 }
-/* line 30, ../sass/screen.scss */
+/* line 48, ../sass/screen.scss */
 #container .sidebar h3 {
   margin: 0;
 }
